@@ -1,0 +1,102 @@
+\section{The Referee}\label{sec:referee}
+
+\subsection{The Authority of the Referee}
+Each match is controlled by a referee who has full authority to enforce the Laws of the Game in connection with the match to which he has been appointed.
+
+\subsection{Powers and Duties}
+The Referee:
+
+\begin{itemize}
+\item enforces the Laws of the Game
+\item controls the match in co-operation with the assistant referees
+\item ensures that any ball used meets the requirements of \autoref{sec:ball}
+\item ensures that the robotic equipment meets the requirements of \autoref{sec:robotic-equipment}
+\item informs the assistant referees when periods of time lost begin and end in accordance with \autoref{sec:duration-of-the-match}
+\item stops, suspends, or terminates the match, at his discretion, for any infringements of the Laws
+\item stops, suspends, or terminates the match because of outside interference of any kind
+\item stops the match if, in his opinion, a robot is likely to cause serious harm to humans, other robots, or itself and ensures that it is removed from the field of play
+\item repositions the ball to a neutral position if it becomes stuck during play
+\item allows play to continue when the team against which an offence has been committed will benefit from such an advantage and penalises the original offence if the anticipated advantage does not ensue at that time
+\item punishes the more serious offence when a robot commits more than one offence at the same time
+\item takes disciplinary action against robots guilty of cautionable and sending-off offences He is not obliged to take this action immediately but must do so when the ball next goes out of play
+\item takes action against team officials who fail to conduct themselves in a responsible manner and may, at his discretion, expel them from the field of play and its immediate surrounds
+\item acts on the advice of assistant referees regarding incidents which he has not seen
+\item ensures that no unauthorised persons encroach the field of play
+\item restarts the match after it has been stopped
+\item provides the technical committee with a match report which includes information on any disciplinary action taken against team officials and any other incidents which occurred before, during, or after the match
+\item checks shared vision system status with Vision Expert(s) (see \autoref{app:vision-experts}) before each match
+\item gets confirmation from Vision Expert(s) that both teams receive localization data from shared vision system correctly and accurately
+\item halts the game whenever Vision Expert(s) ask during a match and lets the Vision Expert(s) diagnose and fix the issue If the Vision Expert(s) confirm that the issue is resolved then the game must restart instantly
+\end{itemize}
+
+\subsection{Decisions of the Referee}
+The decisions of the referee regarding facts connected with play are final.
+
+The referee may only change a decision on realising that it is incorrect or, at his discretion, on the advice of an assistant referee, provided that he has not restarted play.
+
+\subsection{Referee's Signalling Equipment}
+A device will be supplied to convert the referee's signals into Ethernet communication signals that are transmitted to both teams.
+The equipment will be operated by the assistant referee.
+Details of the equipment are to be supplied by the local organising committee before the competition.
+
+\subsection{Signals from the Referee}
+During a match the referee will signal the start and stop of play in the usual fashion.
+The assistant referee will send signals reflecting the referee's call over communication links to each team.
+No interpretation of the referee's signals by human operators is permitted.
+
+The whistle signal indicates that the referee has stopped play and that all robots should move 500\,mm from the ball to allow the referee to place the ball for a restart.
+All robots are required to remain 500\,mm from the ball as the ball is moved to the restart position.
+
+For a goal (\autoref{sec:method-of-scoring}), or caution or send off (\autoref{sec:fouls-and-misconduct}), an informational signal will be sent to indicate the referee's decision.
+
+The restart signal will indicate the type of restart.
+Robots should move into legal positions upon receipt of this signal.
+For restarts other than a kick-off (\autoref{sec:start-and-restart-of-play}) or a penalty kick (\autoref{sec:penalty-kick}), the kicker may kick the ball when ready without further signals from the referee.
+
+For a kick-off (\autoref{sec:start-and-restart-of-play}) or a penalty kick (\autoref{sec:penalty-kick}), a start signal will be sent to indicate that the kicker may proceed.
+This signal will not be sent for other types of restart.
+
+Signals indicating periods of timeout and time lost will also be sent when required.
+
+The referee will be deemed to have given a signal when the assistant referee has relayed that signal over the communications links.
+
+\subsection*{Decisions of the Small Size League Technical Committee}
+\begin{enumerate}
+\item
+A referee (or where applicable, an assistant referee) is not held liable for:
+\begin{itemize}
+\item any kind of injury suffered by an official or spectator
+\item any damage to property of any kind
+\item any other loss suffered by any individual, club, company, association, or other body, which is due or which may be due to any decision which he may take under the terms of the Laws of the Game or in respect of the normal procedures required to hold, play, and control a match
+\end{itemize}
+
+This may include:
+\begin{itemize}
+\item a decision that the condition of the field of play or its surrounds are such as to allow or not to allow a match to take place
+\item a decision to abandon a match for whatever reason
+\item a decision as to the condition of the fixtures or equipment used during a match including the field and the ball
+\item a decision to stop or not to stop a match due to spectator interference or any problem in the spectator area
+\item a decision to stop or not to stop play to allow a damaged robot to be removed from the field of play for repair
+\item a decision to request or insist that a damaged robot be removed from the field of play for repair
+\item a decision to allow or not to allow a robot to have certain colours
+\item a decision (in so far as this may be his responsibility) to allow or not to allow any persons (including team or stadium officials, security officers, photographers, or other media representatives) to be present in the vicinity of the field of play
+\item any other decision which he may take in accordance with the Laws of the Game or in conformity with his duties under the terms of the RoboCup Federation or league rules or regulations under which the match is played
+\end{itemize}
+
+\item
+Facts connected with play shall include whether a goal is scored or not and the result of the match.
+
+\item
+The referee should use a black stick or some other device when repositioning the ball to reduce the chance of interference with vision systems.
+
+\item
+The referee may be assisted by an autonomous referee application provided by one or both of the competing teams, if both teams agree.
+The referee may also be assisted by an autonomous or semi-autonomous application provided by a team not participating in the current match, at the referee's own discretion, provided that the application is operated or monitored by a neutral party.
+
+\item
+The outer region of the field surface which is further than 250\,mm away from the boundary line is used as a designated walking area by the referee and/or assistant referee during gameplay.
+Teams should control their robots to stay out of this area to not interfere with the referees.
+Referees are not responsible for any obstructions to robots or vision systems within this area.
+Nevertheless, referees are requested to wear clothes and shoes which do not contain any color reserved for the ball or for robot markers.
+
+\end{enumerate}
