@@ -1,5 +1,5 @@
-sslrules.aux
-sslrules.log
-sslrules.out
-sslrules.pdf
-sslrules.toc
+*.aux
+*.log
+*.out
+*.pdf
+*.toc

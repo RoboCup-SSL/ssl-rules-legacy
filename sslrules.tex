@@ -1,5 +1,5 @@
 \documentclass[12pt]{article}
-\usepackage{times,fullpage,xspace,fancyhdr,url,graphicx,xspace}
+\usepackage{times,fullpage,xspace,fancyhdr,url,graphicx,xspace,ifthen}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -10,6 +10,27 @@
 	pdfauthor={Small Size League Technical Committee},
 }
 
+%
+% This stuff is all about semi-automatically generating the year-to-year diffs.
+% All text that is the same from the prior year to the current year should be plain text.
+% All text that is removed from the prior year to the current year should be in a \removed command.
+% All text that is added from the prior year to the current year should be in a \added command.
+% If more complicated stuff is needed, like whole sections deleted from the new year, use \ifdiff.
+% It would probably be better to use an environment, but I have no idea how to make an environment that discards its body (as would be needed in the non-diff case for removed text).
+% Then the Makefile will automatically build both the main PDF and the diff PDF if told to (by "make sslrules.pdf" and "make diff.pdf").
+% When starting to work on a new year, the first thing you do should be to delete all the \removed commands and their contents and the \added commands BUT NOT their contents.
+% Old rules files and diffs should still be available be going to a git tag and rebuilding.
+%
+\newif\ifdiff
+\providecommand\diff{false}
+\ifthenelse{\equal{\diff}{true}}{
+\difftrue
+\newcommand{\added}[1]{\textcolor{green}{#1}}
+\newcommand{\removed}[1]{\textcolor{red}{#1}}
+}{
+\newcommand{\added}[1]{#1}
+\newcommand{\removed}[1]{}
+}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{12pt plus 6pt minus 3pt}
