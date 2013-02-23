@@ -9,6 +9,9 @@ A direct free kick is awarded to the opposing team if a robot commits any of the
 \item holds an opponent
 \item holds the ball deliberately (except for the goalkeeper within his own defence area)
 \item is the second defending robot to simultaneously occupy the team's defence area in such a way to substantially affect game play
+\ifdiff
+\item \removed{tips over, breaks or drops parts on the field in a way that gives its team unfair advantage}
+\fi
 \end{itemize}
 
 A free kick is taken from where the offence occurred.
@@ -27,9 +30,9 @@ An indirect free kick is also awarded to the opposing team if a robot:
 \begin{itemize}
 \item contacts the goalkeeper where the point of contact is in the defence area
 \item dribbles the ball over a distance greater than 500\,mm
-\item touched the ball such that the top of the ball travels more than 150\,mm from the ground, and the ball subsequently enters their opponent's goal, without having either touched a teammate (while below 150\,mm) or remained in contact with the ground (stopped bouncing)
+\item touched the ball such that the top of the ball travels more than 150\,mm from the ground, and the ball subsequently enters their opponent's goal, without having either touched a teammate (while below 150\,mm) or remained in contact with the ground (stopped bouncing)\removed{.}
 \item kicks the ball such that it exceeds 8\,m/s in speed
-\item tips over, breaks or drops parts on the field in a way that gives its team unfair advantage
+\item \added{tips over, breaks or drops parts on the field in a way that gives its team unfair advantage}
 \item commits any other offence, not previously mentioned in \autoref{sec:fouls-and-misconduct}, for which play is stopped to caution or dismiss a robot
 \end{itemize}
 
@@ -65,7 +68,7 @@ This law is designed to protect robots which are slow moving or stationary at th
 \item
 Cautions for serious and violent contact are a way to discourage teams from ignoring the spirit of the no-contact principle.
 Examples of cautionable offences include uncontrolled motion, poor obstacle avoidance, pushing, or rapid spinning while adjacent to an opponent.
-In a typical scenario, the referee would warn the team and expect that they would modify their system to reduce the violence of their play.
+In a typical scenario, the referee would warn the team\removed{,} and expect that they would modify their system to reduce the violence of their play.
 If the referee was still unsatisfied a caution would be issued.
 
 \item
@@ -90,7 +93,7 @@ A robot begins dribbling when it makes contact with the ball and stops dribbling
 The restriction on dribbling distance was added to prevent a robot with a mechanically superior dribbler having unchallenged control of the ball.
 The distance restriction still allows dribblers to be used to aim and receive passes, turn around with the ball, and stop with the ball.
 Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
-The technical committee expects the distance rule to be self-enforced, i.e., teams will ensure their software complies beforehand and may be asked to demonstrate this prior to a competition.
+The technical committee expects the distance rule to be self-enforced, i.e., teams will \removed{i}\added{e}nsure their software complies beforehand and may be asked to demonstrate this prior to a competition.
 Referees, though, will still call fouls for violations and may give a caution (yellow card) for situations of repeated violations.
 
 \item
@@ -102,15 +105,15 @@ The current rule about scoring after chip kicks is defined in this section (subs
 During past competitions, some confusions occurred after robots chipped the ball and thereby caused own goals.
 For this reason, a strict interpretation of this rule is provided here:
 \begin{itemize}
-\item if a robot chips the ball (no matter at which height it travels) at a team mate and the ball subsequently enters the own goal, the opponent team scores
-\item if a robot chips the ball at an opponent and the ball subsequently enters the own goal while staying below 150\,mm all the time after touching the opponent robot, the opponent team also scores
-\item if a robot chips the ball at an opponent and the ball subsequently enters the own goal after having been above 150\,mm for some time (and not being in constant touch with the ground afterwards) after touching the opponent robot, the opponent team does not score
+\item \removed{I}\added{i}f a robot chips the ball (no matter at which height it travels) at a team mate and the ball subsequently enters the own goal, the opponent team scores\removed{.}
+\item \removed{I}\added{i}f a robot chips the ball at an opponent and the ball subsequently enters the own goal while staying below 150\added{\,}mm all the time after touching the opponent robot, the opponent team also scores\removed{.}
+\item \removed{I}\added{i}f a robot chips the ball at an opponent and the ball subsequently enters the own goal after having been above 150\added{\,}mm for some time (and not being in constant touch with the ground afterwards) after touching the opponent robot, the opponent team does not score\removed{.}
 \end{itemize}
 
 \item
 The offence on deliberately entering the referee walking area was added to discourage teams from driving through this area to gain tactical advantages.
 In particular, it should prevent teams from exploiting the fact that other teams might not have vision coverage of the referee walking area.
-It is understood that on occasion a robot can enter the area if it is out of control or if it has been pushed into this area.
+It is understood that on occasion a robot can enter the area if it is out of control\removed{,} or if it has been pushed into this area.
 Such cases should not be considered offences.
 However, the final decision as to what constitutes a deliberate violation is left to the referee.
 
