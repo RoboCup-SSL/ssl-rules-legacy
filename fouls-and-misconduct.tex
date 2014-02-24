@@ -3,7 +3,7 @@
 Fouls and misconduct are penalised as follows:
 
 \subsection{Direct Free Kick}\label{subsec:fouls-and-misconduct-direct-free-kick}
-A direct free kick is awarded to the opposing team if a robot commits any of the following four offences:
+A direct free kick is awarded to the opposing team if a robot commits any of the following \removed{four} \added{three} offences:
 \begin{itemize}
 \item makes substantial contact with an opponent
 \item holds an opponent
@@ -15,7 +15,13 @@ A free kick is taken from where the offence occurred.
 \subsection{Penalty Kick}
 A penalty kick is awarded if any of the offences listed in \autoref{subsec:fouls-and-misconduct-direct-free-kick} is committed by a robot inside his own defence area, irrespective of the position of the ball, provided it is in play.
 
+\added{
+A penalty kick is also awarded to the opposing team if, while the ball is in play, a defender other than the goalie touches the ball while positioned entirely within the defense area.
+}
+
+\removed{
 A penalty kick is also awarded to the opposing team if, while the ball is in play, a defender other than the goalie enters its own defense area and, while infringing on that area, the ball either touches the infringing robot or is located within the defense area.
+}
 
 \subsection{Indirect Free Kicks}
 An indirect free kick is awarded to the opposing team if a goalkeeper, inside his own defence area, commits any of the following offences:
@@ -31,6 +37,7 @@ An indirect free kick is also awarded to the opposing team if a robot:
 \item touched the ball such that the top of the ball travels more than 150\,mm from the ground, and the ball subsequently enters their opponent's goal, without having either touched a teammate (while below 150\,mm) or remained in contact with the ground (stopped bouncing).
 \item kicks the ball such that it exceeds 8\,m/s in speed
 \item tips over, breaks or drops parts on the field in a way that gives its team unfair advantage
+\item \added{touched the ball such that the top of the ball travels more than 150\,mm from the ground, and the ball subsequently crosses the midline, without having either touched another robot or the ground}
 \item commits any other offence, not previously mentioned in \autoref{sec:fouls-and-misconduct}, for which play is stopped to caution or dismiss a robot
 \end{itemize}
 
@@ -47,6 +54,8 @@ A team is cautioned and shown the yellow card if a robot on that team commits an
 \item fails to respect the required distance when play is restarted with a goal kick, corner kick or free kick
 \item modifies or damages the field or ball
 \item deliberately enters or travels within the referee walking area
+\item \added{is a robot other than the goalie, and touches the ball while in play, while being located partially but not entirely within the defense area}
+\item \added{travels faster than 1\,m/s while the ball is out of play, no restart of play has been called, and the game is in neither a time-out, half-time, nor similar break in gameplay such as the interval before extra time or a penalty shootout (for games on the double-size field, the speed limit is increased to 1.5\,m/s)}
 \end{enumerate}
 
 Upon receipt of a yellow card, the number of robots allowed on the field for the penalised team decreases by one.
@@ -76,6 +85,8 @@ Cautions for serious and violent contact are a way to discourage teams from igno
 Examples of cautionable offences include uncontrolled motion, poor obstacle avoidance, pushing, or rapid spinning while adjacent to an opponent.
 In a typical scenario, the referee would warn the team and expect that they would modify their system to reduce the violence of their play.
 If the referee was still unsatisfied a caution would be issued.
+\added{It is recommended that the assistant referee be responsible for observing the robots and notifying the main referee when a yellow card should be issued for violent contact.
+The duty of the referee as described in \autoref{sec:referee} to allow the game to continue if the violation benefits the non-violating team applies here; for example, if the yellow team causes a violent collision with a blue robot, the referee allows the game to continue in order that the blue team be granted a point if it scores a goal, but should the yellow team score, no goal would be awarded.}
 
 \item
 A robot that is placed on the field but is clearly not capable of movement will be sanctioned for unsporting behaviour.
@@ -126,4 +137,8 @@ However, the final decision as to what constitutes a deliberate violation is lef
 \item
 If a tipped over or broken robot does not constitute danger to other robots or humans, neither gives its team unfair advantage, the referee shall allow the game to continue until another game stoppage condition occurs.
 The final decision as to what constitutes danger or unfair advantage is left to the referee.
+
+\item
+\added{The robot speed limit described in \autoref{subsec:fouls-and-misconduct-disciplinary-sanctions} applies only to cases where the Referee Box is reporting the STOP command during normal play or a penalty shootout.
+The intention of this rule is to avoid collisions caused by large numbers of robots moving long distances and to avoid robots accidentally interfering with the referee controlling the ball.}
 \end{enumerate}
