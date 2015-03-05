@@ -490,13 +490,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.099412079"
+     inkscape:zoom="0.070294955"
      inkscape:cx="4672.4225"
      inkscape:cy="3709.4971"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1918"
+     inkscape:window-width="958"
      inkscape:window-height="1059"
      inkscape:window-x="1024"
      inkscape:window-y="219"
@@ -509,7 +509,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -555,7 +555,7 @@
        sodipodi:cy="3337.5151"
        sodipodi:rx="1087.5944"
        sodipodi:ry="1087.5944"
-       d="m 4062.485,3337.5151 a 1087.5944,1087.5944 0 1 1 -2175.1887,0 1087.5944,1087.5944 0 1 1 2175.1887,0 z"
+       d="m 4062.485,3337.5151 c 0,600.6618 -486.9326,1087.5944 -1087.5944,1087.5944 -600.6618,0 -1087.5943,-486.9326 -1087.5943,-1087.5944 0,-600.6617 486.9325,-1087.5943 1087.5943,-1087.5943 600.6618,0 1087.5944,486.9326 1087.5944,1087.5943 z"
        transform="matrix(0.45762637,0,0,0.45762638,3841.3235,-4177.6846)" />
     <g
        id="g7232"
@@ -565,7 +565,7 @@
          sodipodi:end="1.5707963"
          sodipodi:start="0"
          transform="matrix(1.9648288,0,0,1.9648287,-2635.3467,-6440.4793)"
-         d="m 2191.1828,2049.9951 a 503.8121,503.8121 0 0 1 -503.8121,503.8121"
+         d="m 2191.1828,2049.9951 c 0,278.2478 -225.5643,503.8121 -503.8121,503.8121"
          sodipodi:ry="503.8121"
          sodipodi:rx="503.8121"
          sodipodi:cy="2049.9951"
@@ -578,7 +578,7 @@
          sodipodi:end="6.2831853"
          sodipodi:start="4.712389"
          transform="matrix(0.93178075,0,0,0.86060306,-2383.0755,-6267.3844)"
-         d="M 3286.7742,2729.7417 A 1063.6034,1151.5706 0 0 1 4350.3776,3881.3122"
+         d="m 3286.7742,2729.7417 c 587.4119,0 1063.6034,515.5757 1063.6034,1151.5705"
          sodipodi:ry="1151.5706"
          sodipodi:rx="1063.6034"
          sodipodi:cy="3881.3123"
@@ -613,7 +613,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:12.28054714;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend)"
-       d="m 4716.287,-2647.2319 967.426,0"
+       d="m 4829.4637,-2958.1678 741.0726,621.8718"
        id="path4452-5-3"
        inkscape:connector-curvature="0" />
     <path
@@ -720,7 +720,7 @@
          sodipodi:end="1.5707963"
          sodipodi:start="0"
          transform="matrix(1.9648288,0,0,1.9648287,-2635.3467,-6440.4793)"
-         d="m 2191.1828,2049.9951 a 503.8121,503.8121 0 0 1 -503.8121,503.8121"
+         d="m 2191.1828,2049.9951 c 0,278.2478 -225.5643,503.8121 -503.8121,503.8121"
          sodipodi:ry="503.8121"
          sodipodi:rx="503.8121"
          sodipodi:cy="2049.9951"
@@ -733,7 +733,7 @@
          sodipodi:end="6.2831853"
          sodipodi:start="4.712389"
          transform="matrix(0.93178075,0,0,0.86060306,-2383.0755,-6267.3844)"
-         d="M 3286.7742,2729.7417 A 1063.6034,1151.5706 0 0 1 4350.3776,3881.3122"
+         d="m 3286.7742,2729.7417 c 587.4119,0 1063.6034,515.5757 1063.6034,1151.5705"
          sodipodi:ry="1151.5706"
          sodipodi:rx="1063.6034"
          sodipodi:cy="3881.3123"
@@ -903,13 +903,13 @@
     <text
        xml:space="preserve"
        style="font-size:200px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
-       x="4935.5239"
-       y="-2697.6377"
+       x="5170.249"
+       y="-2679.8555"
        id="text8158"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan8160"
-         x="4935.5239"
-         y="-2697.6377">1000</tspan></text>
+         x="5170.249"
+         y="-2679.8555">1000</tspan></text>
   </g>
 </svg>
