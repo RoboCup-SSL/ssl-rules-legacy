@@ -1,0 +1,272 @@
+
+/*---- General ----*/
+
+html {
+  margin:  0px;
+  padding: 0px;
+}
+
+table {
+  margin:  0px;
+  padding: 0px;
+  border:  none;
+  border-spacing:  0px;
+}
+
+img {
+  margin:  0px;
+  padding: 0px;
+  border:  none;
+}
+
+h1, h2, h3, h4, h5, h6, p, div {
+  margin:  0px;
+  padding: 0px;
+}
+
+body {
+  padding: 32pt;
+
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12pt;
+
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+  text-align: justify;
+}
+
+/*---- Links ----*/
+
+a {
+  color: rgb(  0,  0,  0);
+  text-decoration: none;
+}
+
+a.nav {
+  color: rgb(  0,  0,  0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link {
+}
+
+a:visited {
+}
+
+a:active {
+  color: rgb(  0,144,105);
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: rgb(224,224,224);
+  text-decoration: underline;
+}
+
+/*---- Navigation ----*/
+
+#nav {
+  font-size:   12pt;
+  font-weight: bold;
+}
+
+#nav ul {
+  margin-top:     12pt;
+  margin-bottom:  24pt;
+  padding:         0pt;
+  list-style:     none;
+}
+
+#nav li a {
+  display: block;
+  padding: 2pt 2pt 2pt 16pt;
+
+  width: auto;
+}
+
+/*---- Main Text ----*/
+
+p {
+  margin-top:     6pt;
+  margin-bottom:  6pt;
+  margin-left:   24pt;
+  padding:        0pt;
+}
+
+p.list {
+  margin-top:     6pt;
+  margin-bottom:  0pt;
+  margin-left:   24pt;
+  padding:        0pt;
+}
+
+div.law { 
+  page-break-before: always;
+  margin-top:        0pt;
+  margin-bottom:    24pt;
+  margin-left:       0pt;
+}
+
+div.shortlaw { 
+  page-break-before: auto;
+  margin-top:        0pt;
+  margin-bottom:    24pt;
+  margin-left:       0pt;
+}
+
+p.law_hdr {
+  margin-bottom:  6pt;
+  margin-left:    0pt;
+
+  padding:        2pt;
+  padding-left:  22pt;
+  padding-right: 22pt;
+
+  color:      rgb(255,255,255);
+  background: rgb(  0,144,105);
+  text-align:  right;
+  font-size:   18pt;
+  font-weight: bold;
+}
+
+p.sec {
+  margin-top:     6pt;
+  margin-bottom:  0pt;
+  margin-left:    0pt;
+  padding:        0pt;
+
+  color: rgb(  0,144,105);
+  font-size:   14pt;
+  font-weight: bold;
+}
+
+p.subsec {
+  margin-top:     6pt;
+  margin-bottom:  0pt;
+  margin-left:   12pt;
+  padding:        0pt;
+
+  color: rgb(  0,144,105);
+  font-size:   12pt;
+  font-weight: bold;
+}
+
+p.situation {
+  font-style: italic;
+}
+
+p.dec_hdr {
+  margin-top:    12pt;
+  margin-bottom:  6pt;
+  margin-left:    0pt;
+
+  color: rgb(  0,144,105);
+  font-size:   14pt;
+  font-weight: bold;
+}
+
+ul.dec {
+  margin-top:     6pt;
+  margin-bottom:  0pt;
+  margin-left:   12pt;
+  padding:        0pt;
+
+  list-style-type: disc;
+  list-style-position: inside;
+
+  color: rgb(  0,144,105);
+  font-size:   12pt;
+  font-weight: bold;
+}
+
+ul.sec {
+  margin-top:     0pt;
+  margin-bottom: 12pt;
+  margin-left:   24pt;
+  padding:        0pt;
+
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+ol.sec {
+  margin-top:     0pt;
+  margin-bottom: 12pt;
+  margin-left:   24pt;
+  padding:        0pt;
+
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+table { 
+  margin-left:   24pt;
+}
+
+li.sec {
+}
+
+div.figure {
+  text-align:  center;
+  /* border:         0pt;*/
+  padding-top:    12pt;
+  padding-bottom: 12pt;
+}
+
+div.figure img {
+}
+
+div.figure caption {
+  font-style: italic;
+}
+
+/* ==== Show Changes ==== */
+.removed { 
+  color: rgb(255,  0,  0);
+  background-color: rgb(255,208,208);
+}
+.removed2011 { 
+  color: rgb(255,  0,  0);
+  background-color: rgb(255,208,208);
+}
+
+.moved { 
+  color: rgb(128,128,  0);
+  background-color: rgb(255,255,192);
+}
+
+.new {
+  color: rgb(  0,  0,255);
+  background-color: rgb(208,208,255);
+}
+.new2011 {
+  color: rgb(  0,  0,255);
+  background-color: rgb(208,208,255);
+}
+
+.remove08 { 
+  display: none;
+}
+
+.moved08 { 
+  display: none;
+}
+
+.new08 { 
+}
+
+.new2010 {
+}
+
+@media print {
+  body {
+    padding: 0pt;
+
+    font-size: 11pt;
+    line-height: 14pt
+  }
+}
+
+@media screen {
+}
