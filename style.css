@@ -225,10 +225,12 @@ div.figure caption {
 .removed { 
   color: rgb(255,  0,  0);
   background-color: rgb(255,208,208);
+  text-decoration: line-through;
 }
-.removed2011 { 
+.remove2012 { 
   color: rgb(255,  0,  0);
   background-color: rgb(255,208,208);
+  text-decoration: line-through;
 }
 
 .moved { 
@@ -240,9 +242,26 @@ div.figure caption {
   color: rgb(  0,  0,255);
   background-color: rgb(208,208,255);
 }
-.new2011 {
+
+.new2012 {
   color: rgb(  0,  0,255);
   background-color: rgb(208,208,255);
+}
+
+/* == previous year's marks == */
+
+.new2011 {
+}
+
+.remove2011 { 
+  display: none;
+}
+
+.draft2011 { 
+  display: none;
+}
+
+.new2010 {
 }
 
 .remove08 { 
@@ -256,8 +275,6 @@ div.figure caption {
 .new08 { 
 }
 
-.new2010 {
-}
 
 @media print {
   body {

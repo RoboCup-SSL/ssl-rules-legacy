@@ -161,6 +161,7 @@ p.dec_hdr {
   margin-bottom:  6pt;
   margin-left:    0pt;
 
+  color: rgb(  0,144,105);
   font-size:   14pt;
   font-weight: bold;
 }
@@ -220,29 +221,44 @@ div.figure caption {
   font-style: italic;
 }
 
-/* ==== Show Changes ====
-.remove { 
-  color: rgb(255,  0,  0);
-  background-color: rgb(255,208,208);
-}
-
-.moved { 
-  color: rgb(128,128,  0);
-  background-color: rgb(255,255,192);
-}
-
-.new {
-  color: rgb(  0,  0,255);
-  background-color: rgb(208,208,255);
-}
-*/
-
 /* ==== Hide Changes ==== */
-.remove08 { 
+.key { 
+  display: none;
+}
+.remove { 
+  display: none;
+}
+.remove2012 { 
   display: none;
 }
 
+.moved { 
+  display: none;
+}
+
+.new {
+}
+
+.new2012 {
+}
+
+/* == previous year's marks == */
+
+.new2011 {
+}
+
 .remove2011 { 
+  display: none;
+}
+
+.draft2011 { 
+  display: none;
+}
+
+.new2010 {
+}
+
+.remove08 { 
   display: none;
 }
 
@@ -253,20 +269,6 @@ div.figure caption {
 .new08 { 
 }
 
-.remove { 
-  display: none;
-}
-
-.moved { 
-  display: none;
-}
-
-.key { 
-  display: none;
-}
-
-.new {
-}
 
 @media print {
   body {
