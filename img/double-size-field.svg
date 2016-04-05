@@ -2,11 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="10400"
@@ -20,6 +22,22 @@
    inkscape:export-ydpi="11.415141">
   <defs
      id="defs3083">
+    <linearGradient
+       id="linearGradient4277"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4279" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4271"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0"
+         id="stop4273" />
+    </linearGradient>
     <marker
        inkscape:stockid="Arrow2Mend"
        orient="auto"
@@ -482,6 +500,26 @@
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="scale(-0.6,-0.6)" />
     </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4271"
+       id="linearGradient4275"
+       x1="383.59586"
+       y1="2591.6891"
+       x2="4438.9408"
+       y2="2591.6891"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.377551,0,0,1.5055394,-532.91321,-6549.5283)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4277"
+       id="linearGradient4281"
+       x1="383.59586"
+       y1="2591.6891"
+       x2="4438.9408"
+       y2="2591.6891"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.377551,0,0,1.5055394,-532.91321,-6549.5283)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -491,16 +529,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.070294955"
-     inkscape:cx="4672.4225"
-     inkscape:cy="3709.4971"
+     inkscape:cx="6912.2914"
+     inkscape:cy="3628.9755"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="958"
-     inkscape:window-height="1059"
-     inkscape:window-x="1024"
-     inkscape:window-y="219"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata3086">
     <rdf:RDF>
@@ -528,16 +566,16 @@
     <rect
        style="fill:#00b000;fill-opacity:1;stroke:none"
        id="rect4371"
-       width="9500"
-       height="6500"
-       x="450"
-       y="-5897.6377" />
+       width="9600"
+       height="6600"
+       x="400"
+       y="-5947.6377" />
     <rect
        style="fill:#00aa00;fill-opacity:1;stroke:#ffffff;stroke-width:10.48846149;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:20.97692343, 10.48846172;stroke-dashoffset:0"
        id="rect3089"
        width="8989.5117"
        height="5989.5117"
-       x="705.2442"
+       x="707.2442"
        y="-5642.3936"
        ry="14.464052" />
     <rect
@@ -637,8 +675,8 @@
        id="path4452-5-7"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:9.81612778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
-       d="m 9712.8135,-274.77966 224.3729,0"
+       style="fill:none;stroke:#000000;stroke-width:10.61728287;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
+       d="m 9714.7944,-274.77966 268.192,0"
        id="path4452-5-7-6"
        inkscape:connector-curvature="0" />
     <path
@@ -784,14 +822,15 @@
     <text
        xml:space="preserve"
        style="font-size:200px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="100.00001"
-       y="-4389.3047"
+       x="4205.9062"
+       y="263.00391"
        id="text8110"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan8112"
-         x="100.00001"
-         y="-4389.3047"
+         x="4205.9062"
+         y="263.00391"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Verdana;-inkscape-font-specification:Verdana">7400</tspan></text>
     <text
        xml:space="preserve"
@@ -881,24 +920,24 @@
     <text
        xml:space="preserve"
        style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
-       x="9715.2334"
+       x="9731.2334"
        y="-322.63779"
        id="text8150"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan8152"
-         x="9715.2334"
-         y="-322.63779">250</tspan></text>
+         x="9731.2334"
+         y="-322.63779">300</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:125px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
-       x="9947.4336"
+       x="10041.434"
        y="-5.9712963"
        id="text8154"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan8156"
-         x="9947.4336"
+         x="10041.434"
          y="-5.9712963">700</tspan></text>
     <text
        xml:space="preserve"
@@ -911,5 +950,12 @@
          id="tspan8160"
          x="5170.249"
          y="-2679.8555">1000</tspan></text>
+    <rect
+       style="fill:url(#linearGradient4275);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient4281);stroke-width:40.58857727;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3303"
+       width="9639.4121"
+       height="6639.4116"
+       x="380.29431"
+       y="-5967.3438" />
   </g>
 </svg>
