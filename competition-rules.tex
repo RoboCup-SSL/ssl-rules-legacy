@@ -30,9 +30,18 @@ This time is suggested to be used by the teams in dialogue with the referee and 
 The referee determines (e.g., by flipping a coin) which team defends which goal as well as which team has to take the first penalty kick.
 
 \subsubsection{Procedure}
-During the penalty shoot-out, a maximum of 2 robots per team is on the field in order to avoid interference.
+During the kicks from the penalty mark, a maximum of 2 robots per team is on the field in order to avoid interference.
+\removed{
+The kicks from the penalty mark are taken alternately by the teams until each team has kicked 5 penalties.
+If a decision is reached for one team, the kicks are stopped by the referee.
+For all penalties, the rules of \autoref{sec:penalty-kick} apply.
+A second kick (e.g., if the ball bounces back from the goalkeeper or a goalpost) or a bounce back from the kicker will not score; as soon as the kicker touches the ball after he released it the first time the penalty is over.
+During the kicks from the penalty mark no timeout is possible.
+Robots may be exchanged between the kicks following the interchange rules of \autoref{sec:number-of-robots}.
+}
+\added{
 If two robots of the same team are on the field, one of them has to be located within 1 meter distance from the attacking team's
-goal line. If two robots of the attacking team touch the ball during one attempt, the attempt is marked as no-goal.
+goal line.
 Both teams alternately attempt to score
 a goal until each team has performed 5 attempts. If a decision is reached for
 one team, the attempts are stopped by the referee.
@@ -41,7 +50,7 @@ touching the goal line.
 The ball is located 6 meters away from the defending goal line, measured
 perpendicularly from the center of the goal.
 The attacking robot has 10 seconds to score on the opponent's goal.
-After 10 seconds or when the ball leaves the field, the attempt is
+After 10 seconds, if the ball leaves the field or if two robots of the attacking team touch the ball during one attempt, the attempt is
 marked as a no-goal.
 In the event of a rule infraction as described by the rules of \autoref{sec:fouls-and-misconduct},
 the attempt is repeated.
@@ -54,6 +63,7 @@ rules of \autoref{subsubsec:number-of-robots-interchange}, with the exception
 that the interchange robot may immediately enter the field after the robot which
 is to be replaced has been removed from the field, independently from its
 location.
+}
 As switching sides would cost too much time and would force the teams to touch their systems both goals are used.
 
 If after 10 kicks no decision is reached, each team takes another penalty in the same order as before.

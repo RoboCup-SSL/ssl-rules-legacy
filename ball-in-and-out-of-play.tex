@@ -8,26 +8,28 @@ The ball is out of play when:
 \end{itemize}
 
 When the ball goes out of play, robots should remain 500\,mm from the ball as the ball is placed until the restart signal is given by the referee.
+\added{
 The referee or the assistant referee will either manually
 place the ball or indicate the position of ball placement to one of the teams.
 If a team is assigned with a ball placement task, the play is considered as stopped
 with the exception that the placing team is allowed to approach and touch the ball.
 A ball is considered placed successfully if
+}
 \begin{itemize}
-\item no more than 15 seconds passed since the placement command
-\item there is no robot within 500\,mm distance to the ball
-\item the ball is stationary
-\item the ball is at a position within 100\,mm radius from the requested position
+\item \added{no more than 15 seconds passed since the placement command}
+\item \added{there is no robot within 500\,mm distance to the ball}
+\item \added{the ball is stationary}
+\item \added{the ball is at a position within 100\,mm radius from the requested position}
 \end{itemize}
-
+\added{
 If a team repeatedly fails to place the ball, the referee may stop assigning
-ball placement tasks to this team.
+ball placement tasks to this team.}
 
-If, during the ball placement, a robot of the non-placing team is touching the ball,
+\added{If, during the ball placement, a robot of the non-placing team is touching the ball,
 an indirect free kick is awarded, to be taken from the placement location.
 If the ball was travelling with more than 1.5\,m/s at the time of contact, the indirect
 free kick is awarded to non-placing team. Otherwise, it is awarded to the ball placing team.
-
+}
 \subsection{Ball In Play}
 The ball is in play at all other times.
 
