@@ -1,3 +1,5 @@
+all: sslrules.pdf diff.pdf
+
 sslrules.pdf : $(wildcard *.tex)
 	pdflatex -halt-on-error sslrules
 	pdflatex -halt-on-error sslrules
