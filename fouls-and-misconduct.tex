@@ -77,8 +77,8 @@ Furthermore, as with yellow cards, receipt of a red card does not affect a team'
 \subsection*{Decisions of the Small Size League Technical Committee}
 \begin{enumerate}
 \item
-Substantial contact is contact sufficient to dislodge the robot from its current orientation, position, or motion in the case where it is moving.
-When both robots are moving at similar speeds, and the cause of contact is not obvious, the referee will allow play to continue.
+Substantial contact is contact sufficient to dislodge the robot from its current orientation, position, or motion in the case where it is moving. \added{To be more exact: At the moment of collision, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5m/s, the faster robot committed a foul. If both robots have the same speed, both conduct a foul and the game will be restarted with a forced start.}
+\removed{When both robots are moving at similar speeds, and the cause of contact is not obvious, the referee will allow play to continue.}
 This law is designed to protect robots which are slow moving or stationary at the time of the contact, and as such should be detected by obstacle avoidance systems.
 
 \item
@@ -88,6 +88,11 @@ In a typical scenario, the referee would warn the team and expect that they woul
 If the referee was still unsatisfied a caution would be issued.
 It is recommended that the assistant referee be responsible for observing the robots and notifying the main referee when a yellow card should be issued for violent contact.
 The duty of the referee as described in \autoref{sec:referee} to allow the game to continue if the violation benefits the non-violating team applies here; for example, if the yellow team causes a violent collision with a blue robot, the referee allows the game to continue in order that the blue team be granted a point if it scores a goal, but should the yellow team score, no goal would be awarded.
+
+\added{
+\item 
+An autonomous referee would issue a yellow card after the third detected collision that was caused by one team. After that, any second additional collision by this team will result in a new yellow card.
+}
 
 \item
 A robot that is placed on the field but is clearly not capable of movement will be sanctioned for unsporting behaviour.
