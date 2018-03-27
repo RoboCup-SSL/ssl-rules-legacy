@@ -28,7 +28,7 @@ An indirect free kick is also awarded to the opposing team if a robot:
 \item dribbles the ball over 1000 mm, measured linearly from the ball location where the
 dribbling started
 \item touches the ball such that the top of the ball travels more than 150\,mm from the ground, and the ball subsequently enters their opponent's goal, without having either touched a teammate (while below 150\,mm) or remained in contact with the ground (stopped bouncing).
-\item kicks the ball such that it exceeds \removed{8} \added{6.5}\,m/s in \added{absolute} speed \added{(in 3d-space)}
+\item kicks the ball such that it exceeds \removed{8} \added{6.5}\,m/s in \added{absolute} speed \added{(in 3D-space) including any noise}
 \item tips over, breaks or drops parts on the field in a way that gives its team unfair advantage
 \item touches the ball such that the ball, without touching any other
   robot, subsequently crosses the  midline and then the opponent's goal line
@@ -43,7 +43,7 @@ opponent robot for more than 200 mm or until the opponent enters its defense are
 
 \subsection{Disciplinary Sanctions}\label{subsec:fouls-and-misconduct-disciplinary-sanctions}
 \subsubsection{Cautionable Offences}
-A team is cautioned and shown the yellow card if a robot on that team commits any of the following offences:
+A team \removed{is cautioned and shown the} \added{receives a} yellow card if a robot on that team commits any of the following offences:
 \begin{enumerate}
 \item is guilty of unsporting behaviour
 \item is guilty of serious and violent contact
@@ -51,7 +51,7 @@ A team is cautioned and shown the yellow card if a robot on that team commits an
 \item delays the restart of play
 \item fails to respect the required distance when play is restarted with a goal kick, corner kick or free kick
 \item modifies or damages the field or ball
-\item deliberately enters or travels within the referee walking area
+\removed{\item deliberately enters or travels within the referee walking area}
 \item is a robot other than the goalkeeper, and touches the ball while in play, while being located partially but not entirely within its own defense area
 \item repeatedly travels faster than 1.5\,m/s while the ball is
 out of play, no restart of play has been called, and the game is in neither a
@@ -69,9 +69,9 @@ The specific choice of robot to remove from and return to the field is made by t
 
 \subsubsection{Sending-Off Offences}
 \added{
-For every third yellow card a red card is shown instead.
+For every third yellow card a red card is issued instead.
 }
-A team is \added{also} shown a red card if one of the robots or the team is guilty of severe unsporting behaviour.
+A \removed{team is shown a} red card \added{is also issued} if one of the robots or the team is guilty of severe unsporting behaviour.
 
 Each red card decreases the number of robots allowed on the field for the penalised team for the remainder of the game.
 As with yellow cards, if a robot must be removed from the field, this is done immediately before play resumes.
@@ -138,18 +138,20 @@ For this reason, a strict interpretation of this rule is provided here:
 \end{itemize}
 }
 
+\removed{%
 \item
 The offence on deliberately entering the referee walking area was added to discourage teams from driving through this area to gain tactical advantages.
 It is understood that on occasion a robot can enter the area if it is out of control or if it has been pushed into this area.
 Such cases should not be considered offences.
 However, the final decision as to what constitutes a deliberate violation is left to the referee.
+}
 
 \item
 If a tipped over or broken robot does not constitute danger to other robots or humans, neither gives its team unfair advantage, the referee shall allow the game to continue until another game stoppage condition occurs.
 The final decision as to what constitutes danger or unfair advantage is left to the referee.
 
 \item
-The robot speed limit described in \autoref{subsec:fouls-and-misconduct-disciplinary-sanctions} applies only to cases where the Referee Box is reporting the STOP command during normal play or a penalty shootout.
+The robot speed limit described in \autoref{subsec:fouls-and-misconduct-disciplinary-sanctions} applies only to cases where \removed{the} Referee Box is reporting the STOP command during normal play or a penalty shootout.
 The intention of this rule is to avoid collisions caused by large numbers of robots moving long distances and to avoid robots accidentally interfering with the referee controlling the ball.
 
 \item
