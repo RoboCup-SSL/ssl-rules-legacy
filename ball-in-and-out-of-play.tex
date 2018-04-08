@@ -16,8 +16,8 @@ The automatic referee will indicate the position of ball placement to the team t
 \added{
 \begin{itemize}
 \item The human referee has to place the ball for all kickoffs.
-\item For an indirect freekick, direct freekick or penalty kick, the team that brings the ball into play must place the ball. If the team fails to place the ball, an indirect free kick is awarded to the opposing team.
-\item For a forced start, a team is drawn by chance and must place the ball. If this team fails, an indirect freekick is awarded to the opposing team.
+\item For an indirect freekick, direct freekick or penalty kick, the team that brings the ball into play must place the ball.
+\item For a forced start, a team is drawn by chance and must place the ball.
 \item The ball must be visible and must not be inside a field or goal corner or behind the goal, before the ball placement starts.
 \item The human referee can decide to place the ball manually, if ball placement is not feasible for a robot.
 \item When a team has failed to place the ball five times in a row, it is not allowed to place the ball for the rest of the game half. All freekicks are awarded to the opposing team. If the team is awarded a penalty kick, the ball is placed by the human referee.
@@ -39,6 +39,10 @@ A ball is considered placed successfully if
 \item the ball is stationary
 \item the ball is at a position within 100\,mm radius from the requested position
 \end{itemize}
+
+\added{
+No further commands will be issued by the Referee Box until the automatic placement is complete. The game will be continued by the Referee Box as soon as the ball is successfully placed. A failed placement will result in an indirect free kick for the opposing team.
+}
 
 \removed{If a team repeatedly fails to place the ball, the referee may stop assigning
 ball placement tasks to this team. }
