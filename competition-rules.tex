@@ -21,18 +21,61 @@ A total of 5 minutes is allowed for all timeouts.
 The number of timeouts and the time not used in regular game are not added.
 Timeouts in extra time follow the same rules as in regular game (stated in \autoref{sec:duration-of-the-match}).
 
-\subsection{Penalty Shoot-Out}
-If the game is drawn after the end of the second period of extra time, kicks from the penalty mark will be taken to decide which teams wins the game.
-The penalty mark for the Penalty Shoot-out procedure is located \added{8 meters away for Division A and} 6 meters
-away \added{ for Division B} from the defending goal line, in the middle between the touch lines.
+\subsection{\removed{Penalty }Shoot-Out}
+\removed{If the game is drawn after the end of the second period of extra time, kicks from the penalty mark will be taken to decide which teams wins the game.
+The penalty mark for the Penalty Shoot-out procedure is located 6 meters away from the defending goal line, in the middle between the touch lines.}
+\added{If the game is drawn after the end of the second period of extra time, an one on one challenge will decide which team wins the game.}
 
 
 \subsubsection{Preparation}
-Before the first penalty is kicked, there will be an interval that must not exceed 2 minutes.
-This time is suggested to be used by the teams in dialogue with the referee and his assistants to check whether the goalkeeper's position is correct (on the line) and all other rules for penalty can be fullfilled as stated in \autoref{sec:penalty-kick}.
-The referee determines (e.g., by flipping a coin) which team defends which goal as well as which team has to take the first penalty kick.
+Before the \added{shoot-out starts}\removed{first penalty is kicked}, there will be an interval that must not exceed 2 minutes.
+\removed{This time is suggested to be used by the teams in dialogue with the referee and his assistants to check whether the goalkeeper's position is correct (on the line) and all other rules for penalty can be full filled as stated in \autoref{sec:penalty-kick}.}
+The referee determines (e.g., by flipping a coin) which team defends which goal as well as which team \added{starts attacking first}\removed{has to take the first penalty kick}.
 
 \subsubsection{Procedure}
+\added{
+\begin{itemize}
+\item
+A maximum of 2 robots per team is on the field in order to avoid interference
+\item
+If two robots of the same team are on the field, one of them has to be located within 1 meter distance from the attacking team's
+goal line.
+\item 
+The ball is placed 8 meters away for Division A and 6 meters away for 
+Division B from the defending goal line, in the middle between the touch lines for each attack
+\item
+Both teams alternately attempt to score a goal until each team has performed 5 attempts.
+\item
+The attacking robot has 10 seconds to score on the opponent's goal.
+After 10 seconds, if the ball leaves the field or if two robots of the attacking team touch the ball during one attempt, the attempt is
+marked as a no-goal.
+\item
+The attack is stopped and marked as no-goal, when the keeper touched the ball (a bounce on the robot case is not counted as touching)
+\item
+The attacker may only play the ball forward (with respect to the x-axis of the field) towards the goal 
+\item
+The rules of \autoref{sec:fouls-and-misconduct} apply. If the attacker team has violated a rule, the attempt is marked as no-goal. Else, the attempt is repeated
+\item
+In the case of a repeated infraction of the defending team, a goal is awarded to the attacking team.
+\item
+No timeout is possible during the shoot-out
+\item
+Robots may be exchanged between the kicks following the interchange
+rules of \autoref{subsubsec:number-of-robots-interchange}, with the exception
+that the interchange robot may immediately enter the field after the robot which
+is to be replaced has been removed from the field, independently from its
+location.
+\item
+As switching sides would cost too much time both goals are used.
+\item
+If a decision is reached for one team, the attempts are stopped by the referee.
+\item
+If, after 10 attempts, no decision is reached, each team takes another attempt in the same order as before.
+This procedure (one attempt for each team) is continued until a decision is reached.
+\end{itemize}
+}
+
+\removed{
 During the kicks from the penalty mark, a maximum of 2 robots per team is on the field in order to avoid interference.
 The kicks from the penalty mark are taken alternately by the teams until each team has kicked 5 penalties.
 If a decision is reached for one team, the kicks are stopped by the referee.
@@ -63,10 +106,13 @@ rules of \autoref{subsubsec:number-of-robots-interchange}, with the exception
 that the interchange robot may immediately enter the field after the robot which
 is to be replaced has been removed from the field, independently from its
 location.
-As switching sides would cost too much time and would force the teams to touch their systems both goals are used.
+}
 
+\removed{
+As switching sides would cost too much time and would force the teams to touch their systems both goals are used.
 If after 10 kicks no decision is reached, each team takes another penalty in the same order as before.
 This procedure (one penalty each team) is continued until a decision is reached.
+}
 
 \subsection{Abandoned Match}
 If one of the teams abandons the match, before or during its course, the opponent will be awarded winner for all purposes.
